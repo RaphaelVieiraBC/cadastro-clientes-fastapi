@@ -1,0 +1,14 @@
+# API
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Banco de dados
+sqlalchemy>=2.0.0
+
+# Validação e configuração
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+email-validator>=2.0.0
+
+# Driver SQLite (já incluído no Python)
+# Para PostgreSQL: psycopg2-binary
